@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+	<div class="top-logo">
+		<h1> AEXUS </h1>
+	</div>
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#about">About </a></li>
+			<li><a href="#programming">Programming</a></li>
+			<li><a href="#math">Math</a></li>
+			<li><a href="#science">Science</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#cart"><i class="fa fa-shopping-cart"></i></a></li>
+
+		</ul>
+	</nav>
+
+	<!-- <div class="logo">
+			<h1> Aexus Books </h1>
+	</div> -->
+	
+
+	<ul id="slides">
+		<li class="slide showing" id="slide1"></li>
+		<li class="slide" id="slide2"></li>
+		<li class="slide" id="slide3"></li>
+	</ul>
+
+<div class="parallax"
+<div id="about">
+<h2>About </h2>
+
+<p> Aexus Books is an online book store created in 2018. It aims to be one of the best providers for programming, math, and science textbooks. It offers books for less than the retail price. You can find books on computer science and programming such as HTML, CSS, Javascript, Python, Ruby, Java, C++, Artificial Intelligence, Machine Learning, Algorithms and Data Structures, and Data Science, mathematics such as Calculus, Linear Algebra, Differential Equations, Probability and Statistics, and science such as Physics, Quantum Mechanics, Biology, Physical Chemistry, and Organic Chemistry. 
+
+</div> <!-- end of about section -->
+
+<div class="bg_1">
+</div> 
+
+<div id="programming">
+	<h2> Programming </h2>
+
+	<div class="container">
+		<div class="row">
+			<div class="card">
+				<div id="image1">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $29.99 </p>
+					<button class="addcart" id="book1" onclick="AddtoCart('Cracking the Coding Interview', 1, 29.99)"> Add to Cart </button>
+										<!-- <button class="addcart" id="book1" onclick="addToCart('Cracking the Coding Interview', '$29.99', '<img class='shoppingImage' src='images/cracking.jpg'>')"> Add to Cart </button> -->
+				</div>
+			</div> <!-- end of card -->
+
+			<div class="card">
+				<div id="image2">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $80.99 </p>
+					<button class="addcart" onclick="AddtoCart('Introduction to Algorithms', 1, 80.99)"> Add to Cart </button>
+				</div>
+			</div> <!-- end of card -->
+
+			<div class="card">
+				<div id="image3">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $20.99 </p>
+					<button class="addcart" onclick="AddtoCart('Javascript & JQuery', 1, 20.99)"> Add to Cart </button>
+				</div>
+			</div> <!-- end of card -->
+		
+		</div> <!-- end of row -->
+
+		<div class="viewmore">
+				<button><a href="programming.html">View More > </a></button>
+			</div>
+	</div> <!-- end of container -->
+</div> <!-- end of programming -->
+
+<div class="bg_2">
+</div>
+
+<div id="math">
+	<h2>Math </h2>
+
+	<div class="container">
+		<div class="row">
+			<div class="card">
+				<div id="image4">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $75.99 </p>
+					<button class="addcart" onclick="AddtoCart('Calculus', 1, 75.99)"> Add to Cart </button>
+				</div>
+			</div> <!-- end of card -->
+
+			<div class="card">
+				<div id="image5">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $70.99 </p>
+					<button class="addcart" onclick="AddtoCart('Introduction to Linear Algebra', 1, 70.99)"> Add to Cart </button>
+				</div>
+			</div> <!-- end of card -->
+
+			<div class="card">
+				<div id="image6">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $75.99 </p>
+					<button class="addcart" onclick="AddtoCart('Discrete Mathematics', 1, 75.99)"> Add to Cart </button>
+				</div>
+			</div> <!-- end of card -->
+		
+		</div> <!-- end of row -->
+
+		<div class="viewmore">
+				<button><a href="math.html">View More > </a></button>
+			</div>
+	</div> <!-- end of container -->
+
+</div> <!-- end of math -->
+
+<div class="bg_3">
+</div>
+
+<div id="science">
+	<h2> Science</h2>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="card">
+				<div id="image7">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $85.99 </p>
+					<button class="addcart" onclick="AddtoCart('Fundamentals of Physics', 1, 85.99)"> Add to Cart </button>
+
+				
+				</div>
+			</div> <!-- end of card -->
+
+			<div class="card">
+				<div id="image8">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $80.99 </p>
+					<button class="addcart" onclick="AddtoCart('Organic Chemistry', 1, 80.99)"> Add to Cart </button>
+				</div>
+			</div> <!-- end of card -->
+
+			<div class="card">
+				<div id="image9">
+				</div>
+				<div class="description">
+					<p class="price"> Price: $90.99 </p>
+					<button class="addcart" onclick="AddtoCart('Molecular Biology of the Cell', 1, 90.99)"> Add to Cart </button>
+				</div>
+			</div> <!-- end of card -->
+		
+		</div> <!-- end of row -->
+
+		<div class="viewmore">
+				<button><a href="science.html">View More > </a></button>
+			</div>
+	</div> <!-- end of container -->
+
+</div> <!-- end of science section -->
+
+<div class="bg_4">
+</div>
+
+<div id="cart">
+	<h2>Cart </h2>
+	<div class="row">
+	<!-- <div class="wrapper">
+		<div class="heading">
+		<h3> Item </h3>
+		<h3> Price </h3>
+		<h3> Total </h3> 
+	</div> -->
+	<div class="wrapper">
+	<!-- <table>
+		<tr>
+			<th> Item </th>
+			<th> Price </th>
+			<th> Total (Free Shipping) </th>
+		</tr>
+
+		<tr>
+			<td> <div id="displayTitle">Title</div> </td>
+			<td><div id="displayPrice">Price</div> </td>
+			<td><div id="displayTotal">Total</div></td>
+		</tr>
+
+
+		<tr> 
+			<td class="noborder"></td> 
+			<td class="noborder"></td> 
+			<td class="noborder"><button class="checkout"> Checkout </button></td>
+		</tr>
+
+	</table> -->
+
+            <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
+                <thead>
+                    <tr>
+                        <td class="heading">
+                            Name
+                        </td>
+                        <td class="heading">
+                            Amount
+                        </td>
+                        <td class="heading">
+                            Price
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="orderedProductsTblBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" id="cart_total">
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td colspan="3" align="right" id="cart_total">
+							<button class="checkout"> Checkout </button>
+                        </td>
+                        
+                    </tr>
+                </tfoot>
+            </table>
+
+	
+	</div>
+	</div>
+</div>
+
+<div class="bg_5">
+</div>
+
+<div id="contact">
+	<h2> Contact </h2>
+	<div class="centercontact">
+	<div class="row"><input type="text" class="contact" placeholder="Email address">
+	</div>
+	<br>
+	<textarea class="contacttext"rows='20' cols='96'></textarea>
+	<div class="row">
+		<button class="submitcontact">Submit </button>
+	</div>
+	</div>
+</div>
+
+<footer>
+	<p>&copy; 2018 Shirley Xu</p>
+</footer>
+</div> <!-- end of parallax -->
+
+<a href ="#" class="scrollToTop">Scroll To Top</a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="aexus.js"></script>
+</body>
+
+</html>
