@@ -248,11 +248,8 @@ th {
 	}
 }
 
-@media only screen and (max-width:451px) {
-	#about {
-		height: 700px;
-	}
-}
+
+
 /*row of programming books*/
 #programming {
 	background-color:#6A09FF;
@@ -711,4 +708,18 @@ footer p {
 	padding-left:0px;
 	padding-right:0px;
 }
+}
+
+@media only screen and (max-width:453px) {
+	#about h2 {
+		padding-top: 150px;
+	}
+
+	#about {
+		height: 800px;
+	}
+
+}
+
+
 }
