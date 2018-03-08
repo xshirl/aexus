@@ -204,7 +204,7 @@ th {
 #about {
 	background-color:#6A09FF;
 	width:100%;
-	height:300px;
+	height:500px;
 	margin-top:-48px;
 }
 
@@ -214,7 +214,7 @@ th {
 	text-transform:uppercase;
 	text-align:center;
 	font-size:40px;
-	padding-top:30px;
+	padding-top:60px;
 	color:white;
 	letter-spacing: 2px;
 }
@@ -230,9 +230,9 @@ th {
 	letter-spacing:1px;
 }
 
-@media only screen and (max-width:988px) {
+@media only screen and (max-width:755px) {
 	#about {
-		height: 400px;
+		height: 500px;
 	}
 }
 
@@ -242,13 +242,13 @@ th {
 	}
 }
 
-@media only screen and (max-width:520px) {
+@media only screen and (max-width:560px) {
 	#about {
 		height: 600px;
 	}
 }
 
-@media only screen and (max-width:423px) {
+@media only screen and (max-width:451px) {
 	#about {
 		height: 700px;
 	}
