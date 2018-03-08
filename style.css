@@ -71,15 +71,19 @@ ul.menu li:hover i {
 }
 
 table {
-	width:100%;
+	/*width:100%;*/
+	/*margin:0 auto;*/
+	/*display:flex;
+	justify-content:center;*/
+	/*align-self:center;*/
 	margin-top:10px;
 	padding-top:30px;
 	cell-spacing: 100px;
 	border-collapse:collapse;
 }
 th, td {
-	padding-left:100px;
-	padding-right:100px;
+	padding-left:50px;
+	padding-right:50px;
 	border:1px solid black;
 }
 
@@ -699,13 +703,12 @@ footer p {
 	#slides {
 		display:none;
 	}
-	.menu{
-		visibility: hidden;
-	}
 
-	.visible {
-		visibility:visible;
-		display:inline;
-	}
+}
 
+@media only screen and (max-width:580px) {
+	th, td {
+	padding-left:0px;
+	padding-right:0px;
+}
 }
