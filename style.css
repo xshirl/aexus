@@ -225,7 +225,7 @@ th {
 #programming {
 	background-color:#6A09FF;
 	width:100%;
-	height:700px;
+	height:1200px;
 	margin-top:-35px;
 }
 #programming h2 {
@@ -308,7 +308,7 @@ th {
 #math {
 	background-color:#6A09FF;
 	width:100%;
-	height:700px;
+	height:1200px;
 	margin-top:-35px;
 }
 #math h2 {
@@ -325,7 +325,7 @@ th {
 #science {
 	background-color:#6A09FF;
 	width:100%;
-	height:700px;
+	height:1200px;
 	margin-top:-35px;
 }
 #science h2 {
@@ -445,6 +445,77 @@ th {
 	height:450px;
 }
 
+#image10 {
+	background-image:url(images/artificialintelligence.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image11 {
+	background-image:url(images/datascience.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image12 {
+	background-image:url(images/python.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image13 {
+	background-image:url(images/differential.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image14 {
+	background-image:url(images/multivariable.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image15 {
+	background-image:url(images/probability.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image16 {
+	background-image:url(images/biochemistry.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image17 {
+	background-image:url(images/neuroscience.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
+
+#image18 {
+	background-image:url(images/physicalchemistry.jpg);
+	background-size:cover;
+	background-position:center;
+	width:300px;
+	height:450px;
+}
 
 .contact {
 	padding:10px;
