@@ -59,13 +59,7 @@ ul.menu li:hover i {
 	font-size:10px;
 }
 
-#displayTitle {
-	
-}
 
-#displayPrice {
-
-}
 .wrapper {
 	background-color:white;
 	color:black;
@@ -77,6 +71,7 @@ ul.menu li:hover i {
 }
 
 table {
+	width:100%;
 	margin-top:10px;
 	padding-top:30px;
 	cell-spacing: 100px;
@@ -92,6 +87,16 @@ th {
 	font-size:20px;
 	font-family:"Lato";
 
+}
+
+@media only screen and (max-width:900px) {
+	table {
+		width:300px;
+	}
+
+	tr, td, th {
+		width:100%;
+	}
 }
 
 .noborder {
@@ -221,6 +226,29 @@ th {
 	letter-spacing:1px;
 }
 
+@media only screen and (max-width:988px) {
+	#about {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width:685px) {
+	#about {
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width:520px) {
+	#about {
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width:423px) {
+	#about {
+		height: 700px;
+	}
+}
 /*row of programming books*/
 #programming {
 	background-color:#6A09FF;
@@ -228,6 +256,20 @@ th {
 	height:1200px;
 	margin-top:-35px;
 }
+
+@media only screen and (max-width:1270px) {
+	#programming {
+		height:1800px;
+	}
+}
+
+@media only screen and (max-width:847px) {
+	#programming {
+		height:3200px;
+	}
+}
+
+
 #programming h2 {
 	font-family: "Lato";
 	font-weight:300;
@@ -238,9 +280,14 @@ th {
 	color:white;
 	letter-spacing: 2px;
 }
-.row {
+/*.row {
 	display:flex;
 	justify-content: center;
+}*/
+
+.row {
+	margin:auto;
+	width:85%;
 }
 
 .card {
@@ -311,6 +358,19 @@ th {
 	height:1200px;
 	margin-top:-35px;
 }
+
+@media only screen and (max-width:1270px) {
+	#math {
+		height:1800px;
+	}
+}
+
+@media only screen and (max-width:847px) {
+	#math {
+		height:3200px;
+	}
+}
+
 #math h2 {
 	font-family: "Lato";
 	font-weight:300;
@@ -327,6 +387,18 @@ th {
 	width:100%;
 	height:1200px;
 	margin-top:-35px;
+}
+
+@media only screen and (max-width:1270px) {
+	#science {
+		height:1800px;
+	}
+}
+
+@media only screen and (max-width:847px) {
+	#science {
+		height:3200px;
+	}
 }
 #science h2 {
 	font-family: "Lato";
@@ -522,13 +594,16 @@ th {
 	width:46%;
 	display:block;
 	outline:none;
-	display: flex;
+	display:flex;
 	justify-content:center;
+	margin-left:10%;
 }
 
 .contacttext{
+	width:80%;
 	outline:none;
 }
+
 
 .centercontact{
 	text-align:center;
@@ -618,4 +693,19 @@ footer p {
 }
 .scrollToTop:hover{
 	text-decoration:none;
+}
+
+@media only screen and (max-width:846px) {
+	#slides {
+		display:none;
+	}
+	.menu{
+		visibility: hidden;
+	}
+
+	.visible {
+		visibility:visible;
+		display:inline;
+	}
+
 }
