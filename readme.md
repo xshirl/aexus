@@ -4,3 +4,5 @@ The site features a one-page website with a cart added on to it that is fully fu
 of the cart. 
 This site uses HTML, CSS, and Javascript. 
 
+It can be viewed at xshirl.github.io/aexus. 
+
